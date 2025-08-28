@@ -1,2 +1,2 @@
 web: gunicorn config.wsgi:reservations
-release: python manage.py migrate
+release: py manage.py migrate
